@@ -1,0 +1,25 @@
+SQL(Structured Query Language)
+: 데이터베이스와 대화하기 위해 특별히 디자인됨.
+: 프로그래밍 언어가 아니다.
+
+= 2종류로 나눠진다.
+1) 관계형 데이터베이스(Relational Database) : SQL
+: mysql, postgresql, sqlite
+: 많은 기업들에서 SQL을 사용한다.
+
+2) 비관계형 데이터베이스(Non-Relational Database) : Non-SQL
+: mongoDB, DynamoDB, couchDB
+
+SQL은 row와 column이 있다.
+: SELECT x FROM y.
+
+SQL은 매우 쉽게 구성되어 있는데, 도대체 왜 많은 사람들은 SQL에 대해 모를까?
+A) ORM 때문이다.
+: ORM : PYTHON을 SQL로 바꿔준다.(시간을 단축할 수 있다.)
+
+> 단, 여기서 문제가 발생한다. 
+1. ORM에 너무 의존한 나머지, 무언가가 작동하지 않을때, 혹은 더 빨리 작업해야할때, 
+   그런 상황이 왔을때, 어떤 부분이 문제인지 모르게 된다.
+   
+   
+=> 즉, SQL을 알게 되면 인생이 편해진다고 할 수 있다... ㅎㅎ
